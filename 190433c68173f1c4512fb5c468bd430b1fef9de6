@@ -1,0 +1,10 @@
+Code-Review+2: Evgeniy L <eli@mirantis.com>
+Code-Review+1: Sylwester Brzeczkowski <sbrzeczkowski@mirantis.com>
+Code-Review+2: Vladimir Kozhukalov <vkozhukalov@mirantis.com>
+Workflow+1: Vladimir Kozhukalov <vkozhukalov@mirantis.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 22 Jan 2016 09:09:54 +0000
+Reviewed-on: https://review.openstack.org/266416
+Project: openstack/bareon-specs
+Branch: refs/heads/master
