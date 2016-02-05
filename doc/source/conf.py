@@ -22,8 +22,7 @@ sys.path.insert(0, os.path.abspath('../..'))
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
-    'sphinx.ext.autodoc',
-    'yasfb',
+    'sphinx.ext.autodoc'
 ]
 
 # Don't use default openstack theme, for readthedocs
@@ -31,6 +30,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 if not on_rtd:
     extensions.append('oslosphinx')
+    extensions.append('yasfb')
 
 # Feed configuration for yasfb
 feed_base_url = 'http://specs.openstack.org/openstack/bareon'
