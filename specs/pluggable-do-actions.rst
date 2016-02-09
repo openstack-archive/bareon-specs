@@ -7,7 +7,7 @@ http://creativecommons.org/licenses/by/3.0/legalcode
 Pluggable architecture for bareon
 =================================
 
-https://blueprints.launchpad.net/bareon/+spec/pluggable-do-actions
+https://blueprints.launchpad.net/bareon/+spec/policy-based-partitioning
 
 At the current state bareon is monolitic tool.
 If one wants to add new drivers or do actions, then those changes should be
