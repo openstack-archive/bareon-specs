@@ -27,7 +27,7 @@ We will try to make a minimum changes to existing code.
 
 We introduce the new attribute in provision.json, called
 partitions_policy. This policy will control the way of how partitions are
-applied. The partitions_policy, working together with “keep_data” attribute
+applied. The partitions_policy, working together with "keep_data" attribute
 of partition/lv will control the data retention. The policy can be either:
 
 * **verify**
@@ -35,9 +35,9 @@ of partition/lv will control the data retention. The policy can be either:
   - Do verification: Compare partitions schema with existing partitions on the
     disk(disks). If there is an additional disk, not mentioned in schema
     (unknown) - it is ignored.
-  - Do partitioning: partitions which do not have “keep_data” attribute are left
+  - Do partitioning: partitions which do not have "keep_data" attribute are left
     as is (keep_data attribute is true by default); partitions which have
-    “keep_data”:false attribute in schema are wiped;
+    "keep_data":false attribute in schema are wiped;
 
 * **clean**
 

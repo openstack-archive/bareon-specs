@@ -22,8 +22,8 @@ Proposed change
 NOTE: This is a contribution of the feature developed within Cray OpenStack project.
 We will try to make a minimum changes to existing code.
 
-All “size” values are strings containing either an integer number and size
-unit (e.g., “100 MiB” or 100MiB”).
+All "size" values are strings containing either an integer number and size
+unit (e.g., "100 MiB" or "100MiB").
 
 Available measurement units are:
 
@@ -32,11 +32,11 @@ Available measurement units are:
 
 Also relative values are supported for partition, pv and lv.
 Relative values use the size of the containing device or volume group as a
-base. For example, specifying “40%” for a 100MiB disk would result in a
+base. For example, specifying "40%" for a 100MiB disk would result in a
 40MiB partition. Obviously, relative sizes cannot be used for disks.
 
-The user can also specify “remaining” as a size value for a volume in a disk
-or in a volume group. When “remaining” is specified, all remaining free space on
+The user can also specify "remaining" as a size value for a volume in a disk
+or in a volume group. When "remaining" is specified, all remaining free space on
 the drive after allocations are made for all other volumes will be used for
 this volume.
 
